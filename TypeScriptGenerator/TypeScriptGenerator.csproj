@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageProjectUrl>https://github.com/emmanuellmota/TypeScriptGenerator</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/emmanuellmota/TypeScriptGenerator</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageTags>C#, Typescript, Generator</PackageTags>
+    <Authors>Emmanuel Mota</Authors>
+    <Company>emmanuellmota</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.7.82" />
+    <PackageReference Include="TypeScriptBuilder" Version="0.1.10" />
+  </ItemGroup>
+
+</Project>
